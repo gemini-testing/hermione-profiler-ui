@@ -1,0 +1,63 @@
+.pluginsCollapse {
+  box-sizing: border-box;
+  margin: -6px -5px 0px -5px;
+  border: 1px solid #f0f0f0;
+}
+
+.pluginsDiagramContaner {
+  position: absolute;
+  width: 100%;
+}
+
+.pluginsDiagramWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.events :global .ant-progress-inner {
+  border-radius: 0;
+}
+
+.events :global .ant-progress-text {
+  position: absolute;
+  display: flex;
+  top: 6px;
+  width: 100%;
+  justify-content: center;
+  margin-left: 0;
+  font-size: 13px;
+}
+
+.events :global .ant-progress-show-info .ant-progress-outer {
+  padding: 0;
+}
+
+.events :global .ant-table-wrapper {
+  padding: 5px;
+}
+
+.events :global .ant-table-tbody > tr > td > .ant-table-wrapper:only-child .ant-table-tbody > tr:last-child > td,
+.events :global .ant-table-tbody > tr > td > .ant-table-expanded-row-fixed > .ant-table-wrapper:only-child .ant-table-tbody > tr:last-child > td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.events :global .ant-table.ant-table-small .ant-table-tbody .ant-table-wrapper:only-child .ant-table {
+  margin: 0 -10px;
+}
+
+.events :global .ant-table.ant-table-small .ant-table-title,
+.events :global .ant-table.ant-table-small .ant-table-footer,
+.events :global .ant-table.ant-table-small .ant-table-thead > tr > th,
+.events :global .ant-table.ant-table-small .ant-table-tbody > tr > td,
+.events :global .ant-table.ant-table-small tfoot > tr > th,
+.events :global .ant-table.ant-table-small tfoot > tr > td {
+  padding: 5px 15px;
+}
+
+.events :global .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: #1c90ff;
+}
+
+.events :global .ant-collapse > .ant-collapse-item {
+  border: 0;
+}
