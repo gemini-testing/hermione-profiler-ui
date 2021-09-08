@@ -1,9 +1,19 @@
 {
   "name": "hermione-profiler-ui",
   "version": "0.0.1",
+  "description": "UI to discover profiled information of hermione",
   "bin": "./build-tools/cli.js",
   "main": "./build-tools/api.js",
+  "author": "Tikvach Alexander <unlok@yandex-team.ru>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemini-testing/hermione-profiler-ui/issues"
+  },
+  "homepage": "https://github.com/gemini-testing/hermione-profiler-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemini-testing/hermione-profiler-ui.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "run-s build:*",
@@ -11,7 +21,7 @@
     "lint": "run-s lint:*",
     "fix": "run-s fix:*",
     "build:app": "react-scripts build",
-    "build:tools": "tsc src/tools/*.ts --outDir build-tools --esModuleInterop && chmod +x ./build-tools/cli.js",
+    "build:tools": "tsc src/tools/*.ts --outDir build-tools --esModuleInterop --declaration && chmod +x ./build-tools/cli.js",
     "test:unit": "react-scripts test --runInBand=true --watchAll=false",
     "lint:eslint": "eslint --config .eslintrc.json src/**/*.{ts,tsx}",
     "fix:eslint": "npm run lint:eslint -- --fix",
@@ -98,7 +108,8 @@
   "files": [
     "build/index.html",
     "build/static",
-    "build-tools/*.js",
-    "!build-tools/*.spec.js"
+    "build-tools",
+    "!build-tools/*.spec.js",
+    "!build-tools/*.spec.d.ts"
   ]
 }
