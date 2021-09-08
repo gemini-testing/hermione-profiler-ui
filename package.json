@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/gemini-testing/hermione-profiler-ui/issues"
   },
-  "homepage": "https://github.com/gemini-testing/hermione-profiler-ui#readme",
+  "homepage": "./",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gemini-testing/hermione-profiler-ui.git"
@@ -21,7 +21,7 @@
     "lint": "run-s lint:*",
     "fix": "run-s fix:*",
     "build:app": "react-scripts build",
-    "build:tools": "tsc src/tools/*.ts --outDir build-tools --esModuleInterop --declaration && chmod +x ./build-tools/cli.js",
+    "build:tools": "tsc -p src/tools/tsconfig.json && chmod +x ./build-tools/cli.js",
     "test:unit": "react-scripts test --runInBand=true --watchAll=false",
     "lint:eslint": "eslint --config .eslintrc.json src/**/*.{ts,tsx}",
     "fix:eslint": "npm run lint:eslint -- --fix",

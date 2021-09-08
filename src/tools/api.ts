@@ -13,12 +13,12 @@ export async function generateReporter(
 
   await fs.ensureDir(target);
   await Promise.all(
-    whitelist.map((allowedPath) => {
-      return fs.copy(
+    whitelist.map((allowedPath) =>
+      fs.copy(
         path.join(dist, allowedPath),
         path.join(target, allowedPath)
-      );
-    })
+      )
+    )
   );
 
   const files = filePaths.map((fileName) => JSON.stringify(fileName));
