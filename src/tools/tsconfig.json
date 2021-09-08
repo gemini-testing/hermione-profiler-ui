@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "../../build-tools",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+  },
+  "lib": ["es2018"]
+}
