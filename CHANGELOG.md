@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.3...v0.0.4) (2021-09-09)
+
+
+### Bug Fixes
+
+* **router:** use hash history ([d19ce12](https://github.com/gemini-testing/hermione-profiler-ui/commit/d19ce12fd2ed3eb4348776c723b3e3da6b226f59))
+
 ### [0.0.3](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.2...v0.0.3) (2021-09-08)
 
 
