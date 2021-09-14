@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.6...v0.0.7) (2021-09-14)
+
+
+### Bug Fixes
+
+* **cli:** fix access to property ([cd50895](https://github.com/gemini-testing/hermione-profiler-ui/commit/cd50895e12c605b61d91d0baed2783256ee09e14))
+
 ### [0.0.6](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.5...v0.0.6) (2021-09-14)
 
 

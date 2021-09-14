@@ -1,6 +1,6 @@
 {
   "name": "hermione-profiler-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "UI to discover profiled information of hermione",
   "bin": "./build-tools/cli.js",
   "main": "./build-tools/api.js",
