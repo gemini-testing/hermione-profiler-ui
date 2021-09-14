@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.5...v0.0.6) (2021-09-14)
+
+
+### Bug Fixes
+
+* **cli:** change option names ([ec0ce2b](https://github.com/gemini-testing/hermione-profiler-ui/commit/ec0ce2bcbd259c5276b49ecf695b1c8b14f2a1bb))
+
 ### [0.0.5](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.4...v0.0.5) (2021-09-14)
 
 
