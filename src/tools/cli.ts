@@ -25,7 +25,7 @@ const program = yargs(hideBin(process.argv))
   .strict()
   .parseSync();
 
-generateReporter(program.plugin, program.output)
+generateReporter(program['plugin-profiles'], program.output)
   .then(() =>
     console.log(`Report has been generated at: ${program.output}`)
   )
