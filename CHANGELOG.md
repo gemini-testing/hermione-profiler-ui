@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.4...v0.0.5) (2021-09-14)
+
+
+### Bug Fixes
+
+* **npm:** move deps ([8718c30](https://github.com/gemini-testing/hermione-profiler-ui/commit/8718c3088fd7a3a1757a1609d93f8e2391b05619))
+
 ### [0.0.4](https://github.com/gemini-testing/hermione-profiler-ui/compare/v0.0.3...v0.0.4) (2021-09-09)
 
 
