@@ -30,7 +30,7 @@ await generateReport(pathsToProfileResults, targetDir);
 ### CLI
 
 ```sh
-npx hermione-profiler-ui generate -t "./ui-report" -pf "http://host.com/file1.json" -pf "/file2.json"
+npx hermione-profiler-ui generate -output "./ui-report" --plugin-profiles "http://host.com/file1.json" "/file2.json"
 ```
 
 ## Development

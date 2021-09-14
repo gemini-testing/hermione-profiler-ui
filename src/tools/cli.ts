@@ -8,16 +8,14 @@ const program = yargs(hideBin(process.argv))
   .scriptName('hermione-profiler-ui')
   .command('generate', 'Generates a report', (cmd) =>
     cmd
-      .option('plugin', {
-        alias: 'p',
+      .option('plugin-profiles', {
         describe:
-          'Path to a file with profiled information about plugins',
+          'Paths to files with profiled information about plugins',
         array: true,
         required: true,
         type: 'string',
       })
-      .option('target', {
-        alias: 't',
+      .option('output', {
         describe: 'Path of the report',
         array: false,
         default: './report',
@@ -27,9 +25,9 @@ const program = yargs(hideBin(process.argv))
   .strict()
   .parseSync();
 
-generateReporter(program.plugin, program.target)
+generateReporter(program.plugin, program.output)
   .then(() =>
-    console.log(`Report has been generated at: ${program.target}`)
+    console.log(`Report has been generated at: ${program.output}`)
   )
   .catch((err) =>
     console.error(`Unable to generate report: ${err.stack}`)
